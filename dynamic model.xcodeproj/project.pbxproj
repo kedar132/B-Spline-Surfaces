@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F67A77CA1B096ACA00B70A87 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F67A77C91B096ACA00B70A87 /* main.cpp */; };
+		F67A77D31B096ADF00B70A87 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67A77D01B096ADF00B70A87 /* GLKit.framework */; };
+		F67A77D41B096ADF00B70A87 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67A77D11B096ADF00B70A87 /* GLUT.framework */; };
+		F67A77D51B096ADF00B70A87 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F67A77D21B096ADF00B70A87 /* OpenGL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		F67A77C61B096ACA00B70A87 /* dynamic model */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "dynamic model"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F67A77C91B096ACA00B70A87 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F67A77D01B096ADF00B70A87 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		F67A77D11B096ADF00B70A87 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		F67A77D21B096ADF00B70A87 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F67A77D31B096ADF00B70A87 /* GLKit.framework in Frameworks */,
+				F67A77D41B096ADF00B70A87 /* GLUT.framework in Frameworks */,
+				F67A77D51B096ADF00B70A87 /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +50,9 @@
 		F67A77BD1B096ACA00B70A87 = {
 			isa = PBXGroup;
 			children = (
+				F67A77D01B096ADF00B70A87 /* GLKit.framework */,
+				F67A77D11B096ADF00B70A87 /* GLUT.framework */,
+				F67A77D21B096ADF00B70A87 /* OpenGL.framework */,
 				F67A77C81B096ACA00B70A87 /* dynamic model */,
 				F67A77C71B096ACA00B70A87 /* Products */,
 			);
@@ -205,6 +217,7 @@
 		F67A77CE1B096ACA00B70A87 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -212,6 +225,7 @@
 		F67A77CF1B096ACA00B70A87 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
