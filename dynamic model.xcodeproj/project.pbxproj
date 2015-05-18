@@ -31,6 +31,7 @@
 		F67A77D01B096ADF00B70A87 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		F67A77D11B096ADF00B70A87 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		F67A77D21B096ADF00B70A87 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F67A77D61B096D8B00B70A87 /* Screen Shot 2015-05-17 at 5.43.17 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2015-05-17 at 5.43.17 PM.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 		F67A77C81B096ACA00B70A87 /* dynamic model */ = {
 			isa = PBXGroup;
 			children = (
+				F67A77D61B096D8B00B70A87 /* Screen Shot 2015-05-17 at 5.43.17 PM.png */,
 				F67A77C91B096ACA00B70A87 /* main.cpp */,
 			);
 			path = "dynamic model";
